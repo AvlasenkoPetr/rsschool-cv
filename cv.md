@@ -49,6 +49,6 @@ I studied at 50th gymnasium after graduating from which i entered BSUIR. Unfortu
 
 I've been learning it since i was 6 but in last few years my practice was limited to watching american late shows on youtube.
 
-Right now my english skills is between B1 and B2 levels.
+My knowledge of english is now between B1 and B2 levels.
 
 (at least StreamLine online tests say so)
