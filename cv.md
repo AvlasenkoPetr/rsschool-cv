@@ -31,13 +31,13 @@ In university i had an opportunity to work with:
 But i believe that the most important skill i got in university is knowledge how to learn quickly, work under stress and find answers by my own.
 
 
-## **Code example**
+## **Code examples**
 
 Haven't got any examples yet :P 
 
 Maybe i'll find smth of my university tasks and upload, but im not sure i still have anything of it.
 
-## **Job experince**
+## **Job experience**
 
 Also don't have any...
 
