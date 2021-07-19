@@ -18,3 +18,17 @@ Sup, my name is Petya, im 21 years old and im from Belarus. I was born in Minsk,
 
 ## **My skills**
 
+In university i had an opportunity to work with:
+* HTML
+* CSS
+* JavaScript
+* Python (ngl i was terrible at this)
+* Assembler
+* MySQL
+* Cisco PocketTracer
+
+But i believe that most important skill i got in university is knowledge how to learn quickly, work under stress and find answers by my own
+
+And my english is between B1 and B2 levels
+
+(at least StreamLine online tests say so)
