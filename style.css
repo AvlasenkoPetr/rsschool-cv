@@ -1,0 +1,99 @@
+.background {
+    background-color: #A1C8E4;
+}
+
+.main {
+    margin:0 auto;
+    background-color: #fff;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main p {
+    font: 14px/21px Arial, sans-serif;
+    color: #152B3C;
+}
+
+.main h1 {
+    font: bold 50px Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+.main h2 {
+    font: bold 30px Arial, sans-serif;
+    color: #10456C;
+    letter-spacing: 3px;
+}
+
+.main ul {
+    margin: 0;
+    color: #80A9C7;
+    font: 14px/21px Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.header div{
+    padding: 50px;
+}
+
+.photo img{
+    height: 500px;
+    padding: 10px 30px;
+}
+
+.section {
+    padding: 50px 110px;
+    border-top: 5px solid #10456C;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section p {
+    letter-spacing: 1.1px;
+    text-align: justify;
+    font: 14px/21px Arial, sans-serif;
+    color: #152B3C;
+}
+
+.section ul {
+    letter-spacing: 1.1px;
+    font: 14px/21px Arial, sans-serif;
+    color: #152B3C;
+}
+
+.section a {
+    letter-spacing: 1.1px;
+    text-align: justify;
+    font: 14px/21px Arial, sans-serif;
+    color: #152B3C;
+}
+
+.section span {
+    letter-spacing: 1.1px;
+    text-align: justify;
+    font: 14px/21px Arial, sans-serif;
+    color: #152B3C;
+}
+
+.footer {
+    width: 1200px;
+    display: flex;
+    background-color: #406F91;
+    font: 20px Arial,sans-serif;
+    color: floralwhite;
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div{
+    padding: 30px 100px;
+}
