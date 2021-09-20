@@ -4,81 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>CV: Avlasenko Petr</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="./libs/highlight/styles/monokai.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Work+Sans&display=swap" rel="stylesheet">
 </head>
-<body class="background">
-    <main class="main">
-        <article>
-            <header class="header">
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><h5><a href="#summary">Summary</a></h5></li>
+                    <li><h5><a href="#education">Education</a></h5></li>
+                    <li><h5><a href="#code">Code</a></h5></li>
+                    <li><h5><a href="#projects">Projects</a></h5></li>
+                    <li><h5><a href="#video">Video</a></h5></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-div">
+            <aside>
+                <div class="div-img">
+                    <img src="./assets/myphoto.jpg" alt="my-photo" class="aside-img">
+                </div>
                 <div>
-                    <h1>AVLASENKO PETR</h1>
-                    <h2>Belarus, Minsk, 21 y.o.</h2>
+                    <h3>Contacts:</h3>
                     <ul>
-                        <li>e-mail: phone.petr@gmail.com</li>
-                        <li>tg: @avlasenko</li>
-                        <li>vk: avlasenkopetr</li>
-                        <li>github: AvlasenkoPetr</li>
+                        <li>Mail: phone.petr@gmail.com</li>
+                        <li>Telegram: @Avlasenko</li>
+                        <li>Github: @AvlasenkoPetr</li>
                     </ul>
                 </div>
-                <div class="photo">
-                    <img src="photo.jpg" alt="my photo">
+                <div>
+                    <h3>Skills:</h3>
+                    <ul>
+                        <li>HTML: Basic</li>
+                        <li>CSS: Basic</li>
+                        <li>JavaScript: Basic</li>
+                        <li>Git: Basic</li>
+                        <li>MySQL: Basic</li>
+                    </ul>
                 </div>
-            </header>
-                <section class="section">
-                    <h2>About me</h2>
-                    <p>My name is Petya, im 21 years old and i'm from Belarus. I was born in Minsk, studied at 50th gymnasium after graduating from which i entered BSUIR. Unfortunately i picked wrong specialization, which was all about engineering so i left university after 3 years and started to study on my own. I really like front-end direction, so i'll do my best to end this course and get a job.</p>
-                </section>
-                <section class="section">
-                    <h2>My skills</h2>
-                    <p>In university i had an opportunity to work with:</p>
+                <div>
+                    <h3>Languages:</h3>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Python</li>
-                        <li>MySQL</li>
-                        <li>Assembler</li>
-                        <li>Cisco Packet Tracer</li>
+                        <li>Russian: Native</li>
+                        <li>English: B1</li>
                     </ul>
+                </div>
+            </aside>
+            <div class="info-div">
+                <section id="summary">
+                    <h1>Avlasenko Petr</h1>
+                    <h2>Junior front-end developer</h2>
+                    <h3>Summary:</h3>
+                    <p>I am 22 y.o. and i live in Minsk. I started to explore frond-end direction 2 months ago. Currently I am studying on RSSchool online courses. My target is to acquire knowledges and skills which will help me to become front-end developer in future.</p>
                 </section>
-                <section class="section">
-                    <h2>Code examples</h2>
-                    <p>Here is my masterpieces:</p>
-                    <a href="">Github account</a><span> (its empty tbh)</span>
+                <section id="education">
+                    <h3>Education:</h3>
+                        <p>BSUIR, Faculty of Computer Design, Programmable mobile systems</p>
+                        <p>2017-2021, Belarus, Minsk</p> 
                 </section>
-                <section class="section">
-                    <h2>Job experience</h2>
-                    <p>Dont have any yet...</p>
+                <section id="code">
+                    <h3>Code example:</h3>
+                    <div class="code">
+                        <div class="code-example">
+                            <pre>
+                                <code>
+/* Write a function, nicknameGenerator that takes a string name as an argument and returns the first 3 or 4 letters as a nickname.
+If the 3rd letter is a consonant, return the first 3 letters.
+If the 3rd letter is a vowel, return the first 4 letters.
+If the string is less than 4 characters, return "Error: Name too short". */
+
+
+
+function nicknameGenerator(name){
+    if (name.length &lt; 4) return 'Error: Name too short' 
+    return name[2].search(/[aoeiu]/) != -1 ? name.slice(0,4) : name.slice(0, 3)    
+    }
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
                 </section>
-                <section class="section">
-                    <h2>Education</h2>
-                    <ul>
-                        <li>2005-2010: School 196</li>
-                        <li>2010-2017: Gymnasuim 50</li>
-                        <li>2017-2021: BSUIR</li>
-                    </ul>
+                <section id="projects">
+                    <h3>Projects:</h3>
+                    <div class="projects">
+                        <div class="projects-div">
+                            <div class="project-cell">  
+                                <p>Museum #stage0</p>  
+                                <a href="https://rolling-scopes-school.github.io/avlasenkopetr-JSFE2021Q3/museum/" target="_blank">
+                                    <img src="./assets/museum.jpg" alt="museum">
+                                </a> 
+                                <div class="skills">
+                                    <div>
+                                        HTML
+                                    </div>
+                                    <div>
+                                        CSS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-cell">  
+                                <p>Work in progress</p>  
+                                <a >
+                                    <img src="./assets/comingsoon.jpg" alt="comingsoon" class="coming-soon">
+                                </a> 
+                                <div class="skills">
+                                    <div>
+                                        Secret
+                                    </div>
+                                    <div>
+                                        Secret
+                                    </div>
+                                    <div>
+                                        Secret
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-                <section class="section">
-                    <h2>Languages</h2>
-                    <ul>
-                        <li>Russian: native</li>
-                        <li>English: B1 (at least online tests say so)</li>
-                    </ul>
+                <section id="video">
+                    <h3 class="h3-video">Self-presentation:</h3>
+                    <div class="video-div">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </section>
-        </article>
+            </div>
+        </div>
+        <footer>
+            <a href="https://github.com/AvlasenkoPetr" target="_blank"><img src="./assets/github.png" alt="github"></a>
+            <h5>2021</h5>
+            <a href="https://rs.school/" target="_blank"><img src="./assets/rs_school.svg" alt="rsschool"></a>
+        </footer>
     </main>
-    <footer class="footer">
-        <div>2021</div>
-        <div>
-            <a href="https://github.com/AvlasenkoPetr">
-                <img src="github.png" alt="github" height="50">
-            </a>
-        </div>
-        <div>
-            <a href="https://rs.school/js/">
-                <img src="rs_school.svg" alt="rsschool" height="50">
-            </a>
-        </div>
-    </footer>
+    <script src="./libs/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
