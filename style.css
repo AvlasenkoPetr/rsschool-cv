@@ -176,6 +176,47 @@ header {
     justify-content: center;
 }
 
+.burger {
+    display: none;
+}
+
+.burger img {
+    transition: 0.1s linear;
+    width: 40px;
+    filter: invert(69%) sepia(39%) saturate(733%) hue-rotate(356deg) brightness(106%) contrast(101%);
+}
+
+@media (max-width: 700px) {
+    .burger {
+        display: block;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        z-index: 100;
+    }
+}
+
+.burger img.active {
+    filter: invert(16%) sepia(49%) saturate(1072%) hue-rotate(172deg) brightness(94%) contrast(84%);
+}
+
+
+@media (max-width: 700px) {
+    .menu {
+        position: fixed;
+        left: -430px;
+        z-index: 50;
+        transition: left 0.5s;
+        width: 300px;
+        border-bottom: 5px solid var(--red-orange);
+        border-right: 5px solid var(--red-orange);
+    }
+}
+
+.menu.animate {
+    left: 0;
+}
+
 header ul {
     margin: 0;
     display: flex;
@@ -187,9 +228,43 @@ header ul {
 
 @media (max-width: 700px) {
     header ul {
-        display: none;
+        flex-direction: column;
+        align-items: center;
+        color: var(--navy);
+        background-color: var(--almond);
     }
 }
+
+/* .menu {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .menu {
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        left: -425px;
+        z-index: 50;
+        transition: 0.5s;
+        background-color: var(--almond);  
+    }
+}
+
+@media (max-width: 700px) {
+    .menu ul {
+        display: flex;
+        padding-inline-start: 0;
+        flex-direction: column;
+        align-items: center;
+        color: var(--navy);
+        margin: 0;
+    }
+}
+
+.menu.animate{
+    left: 0;
+} */
 
 header li {
     list-style: none;
@@ -208,17 +283,27 @@ header li {
     }
 }
 
+@media (max-width: 700px) {
+    header li {
+        margin: 1em 1em;
+    }
+}
 
 header a {
     color: var(--mango);
     text-decoration: none;
     cursor: pointer;
-    transition: 0.3s linear;
-    
+    transition: 0.3s linear;   
 }
 
 header a:hover {
     color: var(--red-orange);
+}
+
+@media (max-width: 700px) {
+    header a {
+        color: var(--navy);
+    }
 }
 
 .main-div {
